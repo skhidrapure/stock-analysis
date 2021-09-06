@@ -7,8 +7,8 @@ The Client Steve loved the workbook that we prepared for him. At the click of a 
 ### Purpose
 The purpose of this project is to determine whether refactoring the code written to analyze stocks for Steve, successfully makes the VBA script run faster. 
 
-## Results
-On taking a look at the original code, the need for refactoring was confirmed. So, refactoring the code successfully made the VBA script ran faster here are the screenshot for both the years than the original VBA script.   
+## Results & Analysis
+On taking a look at the original code, the need for refactoring was confirmed. So, refactoring the code successfully made the VBA script ran faster here are the screenshot for both the years for the original VBA script and the refactored VBA script.   
 
 Original VBA script runtime
 
@@ -17,15 +17,15 @@ Original VBA script runtime
 
 Refactored VBA script
 
-![](Resources/VBA_Challenge_2017.png) 
-![](Resources/VBA_Challenge_2018.png)  
+![](Resources/VBA_Challenge_2017.png)
+![](Resources/VBA_Challenge_2018.png)
 
 
-And also the outputs of stock-analysis were calculated & available on a new worksheet called All Stock Analysis. Here are the screenshots showing the output for stock-analysis for the year 2017 & 2018.   
+And also the outputs of stock-analysis were calculated & available on a new worksheet called All_Stock_Analysis. Here are the screenshots showing the output for stock-analysis for the year 2017 & 2018.   
 
  
 ![](Resources/Output_stockanalysis_2017.png) 
-![](Resources/Output_stockanalysis_2018.png) 
+![](Resources/Output_stockanalysis_2018.png)
 
 
 The output is presented in a table form with 3 columns named as Ticker, Total Daily Volume & Return. Here are the steps followed to get the output for the stock-analysis:
@@ -66,14 +66,12 @@ Wrote a script that increases the tickerIndex if the next row’s ticker doesn�
 
 **Step 4:**
 
-Used a for loop to loop through the arrays (tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices) to output the “Ticker,” “Total Daily Volume,” and “Return” columns in your spreadsheet.
+Used a for loop to loop through the arrays (tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices) to get output the “Ticker,” “Total Daily Volume,” and “Return” columns in your spreadsheet.
 
 Finally, we ran the stock analysis & checked whether refactoring the code successfully made the VBA script run faster & it did. So, the main purpose of the project & the output for Stock-analysis were met.
 
 ## Summary
-- Every piece of code is written from a perspective of the developer. So, based on the perspective of a different developer there can be advantage & disadvantages of refactoring a code. The purpose of refactoring a code is to make it run faster, making the code easier to understand & easier to maintain. There are other benefits of refactoring, it changes the way a developer thinks about the implementation when not refactoring. There's also disadvantages when it comes to refactoring a code like it can be time consuming, no idea to how much time it will take to finish the entire process & sometimes it may land the developer in situation where the developer has no idea what to do next.
-
-- The original VBA script advantage is that it works correctly. The advantages on the refactored VBA script is the refactored VBA script ran faster, thank the original VBA script here are the screenshots showing the runtime for the years 2017 & 2018 for refactored VBA script & original VBA script.
+- Every piece of code is written from a perspective of the developer. So, based on the perspective of a different developer there can be advantage & disadvantages of refactoring a code. The purpose of refactoring a code is to make it run faster, making the code easier to understand & easier to maintain. There are other benefits of refactoring, it changes the way a developer thinks about the implementation when not refactoring. There's also disadvantages when it comes to refactoring a code like it can be time consuming, no idea to how much time it will take to finish the entire process & sometimes it may land the developer in situation where the developer has no idea what to do next. The original VBA script advantage is that it works correctly. The advantages on the refactored VBA script is the refactored VBA script ran faster, than the original VBA script, here are the screenshots showing the runtime for the years 2017 & 2018 for refactored VBA script & original VBA script.
 
 Original VBA script runtime
 
@@ -82,7 +80,7 @@ Original VBA script runtime
 
 Refactored VBA script runtime
 
-![](Resources/VBA_Challenge_2017.png) 
+![](Resources/VBA_Challenge_2017.png)
 ![](Resources/VBA_Challenge_2018.png)
 
-And the other advanatges of refactored VBA script was it's easier to understand & to maintain. The disadvantages of original VBA script was that the code was written in way that it read the excel sheet for one time for every ticker whereas the disadvantages of refactored VBA script is it was time consuming, no idea to how much time it would take to finish the entire process.
+And the other advanatages of refactored VBA script was it's easier to understand & to maintain. The disadvantages of original VBA script was that the code was written in way that it read the excel sheet one time for every ticker whereas the disadvantages of refactored VBA script is it was time consuming, no idea to how much time it would take to finish the entire process.

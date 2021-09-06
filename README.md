@@ -8,12 +8,19 @@ The Client Steve loved the workbook that we prepared for him. At the click of a 
 The purpose of this project is to determine whether refactoring the code written to analyze stocks for Steve, successfully makes the VBA script run faster. 
 
 ## Results
-On taking a look at the original code, the need for refactoring was confirmed. So, refactoring the code successfully made the VBA script ran faster here are the screenshot for both the years 
+On taking a look at the original code, the need for refactoring was confirmed. So, refactoring the code successfully made the VBA script ran faster here are the screenshot for both the years   
+
 ![](Resources/VBA_Challenge_2017.png) 
 ![](Resources/VBA_Challenge_2018.png)  
-and also the outputs of stock-analysis were calculated & available on a new worksheet called All Stock Analysis. Here are the screenshots showing the output for stock-analysis for the year 2017 & 2018 
+
+
+and also the outputs of stock-analysis were calculated & available on a new worksheet called All Stock Analysis. Here are the screenshots showing the output for stock-analysis for the year 2017 & 2018.   
+
+ 
 ![](Resources/Output_stockanalysis_2017.png) 
 ![](Resources/Output_stockanalysis_2018.png) 
+
+
 The output is presented in a table form with 3 columns named as Ticker, Total Daily Volume & Return. Here are the steps followed to get the output for the stock-analysis:
 
 **Step 1a:**

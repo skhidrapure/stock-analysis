@@ -68,7 +68,11 @@ Finally, we ran the stock analysis & checked whether refactoring the code succes
 
 - The original VBA script had advantages like the user had freedom to give input on which dataset to select, here is an image of the popup of the input to be given.
 ![](Resources/Popup_inputforyear.png) 
+
+
 The output worksheet was activated with the name of headers (Tickers, Total Daily Volume, Return), the variable tickers defined & assigned with values for each ticker index & formatting for the output data on the All Stock Analysis worksheet was done. The advantages on the refactored VBA script are after successful completion of refactoring the main aim of the project was fulfilled, that is the refactored VBA script ran faster, here are the screenshots showing the runtime for the years 2017 & 2018 
 ![](Resources/VBA_Challenge_2017.png) 
-![](Resources/Screen Shot 2021-09-05 at 2.11.31 PM.png) 
+![](Resources/VBA_Challenge_2018.png)
+
+ 
 the script was easier to understand & to maintain. The disadvantages of original VBA script are that the code was not fully completed & had errors/bugs & the final All Stocks Analysis worksheet though was active was not linked to holding hold the final results whereas the disadvantages of refactored VBA script is it was time consuming, no idea to how much time it would take to finish the entire process.

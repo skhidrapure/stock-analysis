@@ -10,7 +10,7 @@ The purpose of this project is to determine whether refactoring the code written
 ## Results
 On taking a look at the original code, the need for refactoring was confirmed. So, refactoring the code successfully made the VBA script ran faster here are the screenshot for both the years 
 ![](Resources/VBA_Challenge_2017.png) 
-![](Resources/Screen Shot 2021-09-05 at 2.11.31 PM.png)  
+![](Resources/VBA_Challenge_2018.png)  
 and also the outputs of stock-analysis were calculated & available on a new worksheet called All Stock Analysis. Here are the screenshots showing the output for stock-analysis for the year 2017 & 2018 
 ![](Resources/Output_stockanalysis_2017.png) 
 ![](Resources/Output_stockanalysis_2018.png) 
